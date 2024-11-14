@@ -1,0 +1,40 @@
+/* Banner Section */
+#banner {
+    background-image: url('./assets/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    /* Increased height for better visibility */
+    width: 100%;
+}
+
+/* About Us and Contact Us Sections */
+#about-us,
+#contact-us {
+    background-color: black;
+    padding: 20px;
+    border: 1px solid white;
+    color: white;
+    width: 100%;
+}
+
+.card{
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+/* Footer Section */
+.footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    /* Increased padding for better footer visibility */
+    text-align: center;
+    /* position: fixed;
+    bottom: 0; */
+    width: 100%;
+    /* left: 0;
+    z-index: 1; */
+    /* Ensure footer is at the bottom */
+}
