@@ -40,7 +40,7 @@ function showSection(sectionId) {
 }
 
 function logout() {
-    alert('Logged out successfully!');
+    
     
         // Clear any session or localStorage data (if used for authentication)
         localStorage.removeItem('authToken'); // If you store an auth token or user session in localStorage
@@ -48,6 +48,7 @@ function logout() {
     
         // Redirect to login page
         window.location.href = 'index.html'; // Replace with the actual login page URL
+        alert('Logged out successfully!');
 
     
 }
