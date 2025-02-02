@@ -47,7 +47,7 @@ function logout() {
         sessionStorage.removeItem('authToken'); // If using sessionStorage
     
         // Redirect to login page
-        window.location.href = 'index.html'; // Replace with the actual login page URL
+        window.location.href = 'Front-end/index.html'; // Replace with the actual login page URL
         alert('Logged out successfully!');
 
     
