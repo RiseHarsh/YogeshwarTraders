@@ -33,7 +33,7 @@ db.connect(err => {
 });
 
 // Define login route (MySQL only stores admin login details)
-app.post('/login', (req, res) => {
+app.post('Front-end/login', (req, res) => {
     const { email, password } = req.body;
 
     const query = 'SELECT * FROM admin WHERE email = ? AND password = ?';

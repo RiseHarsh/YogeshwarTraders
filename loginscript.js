@@ -19,7 +19,7 @@
 
             if (data.success) {
                 // Redirect to Admin Dashboard on successful login
-                window.location.href = 'dashboard.html'; // Replace with the actual URL of your admin dashboard
+                window.location.href = 'Front-end/dashboard.html'; // Replace with the actual URL of your admin dashboard
             } else {
                 // Show error message if login fails
                 const errorMessage = document.getElementById('errorMessage');
